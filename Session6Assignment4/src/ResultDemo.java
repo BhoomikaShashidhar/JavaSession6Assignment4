@@ -20,6 +20,6 @@ public class ResultDemo {
 		System.out.println("enter the marks of subject3");
 		Scanner scn3= new Scanner(System.in);
 		int m3=	scn3.nextInt();
-		re.result(m1, m2, m3, name);
+		re.result(m1, m2, m3);
 	}
 }
